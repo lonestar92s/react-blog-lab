@@ -54,7 +54,7 @@ class Comment extends Component {
 export default Comment
 ```
 
-Then in `src/App.js`, we need to load in our `Comment` component and render it inside of our `Post` component...
+Then in `src/Post.js`, we need to load in our `Comment` component and render it inside of our `Post` component...
 
 ```js
 import React, { Component } from 'react';
