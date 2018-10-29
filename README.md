@@ -13,14 +13,13 @@ $ create-react-app blog-app
 $ cd blog-app
 $ npm run start
 ```
-## 1. Create a blog post component
-* Tell react to render a `<Post...>` component from `src/index.js` intead of `App`
+## 1. Create a blog Post component
+* Tell react to render a `<Post...>` component inside of the `App` component
 * Give that component the below properties, and pass some data to those properties.
   1. `title`
   2. `author`
   3. `body`
   4. `comments` (array of strings)
-* Create a Post component in a `Post.js` file and require it in `index.js` instead of App. 
 * The HTML (or more accurately, JSX) composition of your Post is up to you.
 
 **Hint:** To avoid errors, you can either delete CSS files, or change them to reflect that we are using Post instead of App.
