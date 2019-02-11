@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Comment extends Component {
-    render() {
-        return (
-        	<div className ="Post">
-        		<p>
-        		{this.props.body}
-        		</p>
-        	</div>
-        )
-    }
+//this is a functional stateless component1
+export default Comment = (props) => {
+    return (
+        <li key={props.key}>
+            <p>{props.comment}</p>
+        </li>
+    )
 }
